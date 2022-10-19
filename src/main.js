@@ -5,6 +5,9 @@ import router from './router'
 
 import './assets/main.css'
 import vuetify from './plugins/vuetify'
+import { Vuelidate } from 'vuelidate'
+
+Vue.use(Vuelidate);
 
 new Vue({
   router,
